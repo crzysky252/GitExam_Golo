@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #5b6881;
+    color: rgb(57, 5, 177);
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: rgb(77, 94, 77);
+    color: rgb(117, 77, 77);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* New style to be applied when button is clicked */
+.new-style {
+    background-color: black;
+    color: white;
+}
+
